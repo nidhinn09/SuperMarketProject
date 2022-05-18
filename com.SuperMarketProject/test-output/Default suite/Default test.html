@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 17 15:54:19 IST 2022</td>
+<td>Started on:</td><td>Wed May 18 15:19:08 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2977 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11852 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='executeClass.ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword()'><b>verifyTheInvalidUserNameAndInvalidPassword</b><br>Test class: executeClass.ExecuteLoginPage</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because &quot;c&quot; is null
-	at utilities.ExcelReadClass.readStringData(ExcelReadClass.java:24)
-	at elementRepository.LoginPage.readUserName(LoginPage.java:52)
-	at executeClass.ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword(ExecuteLoginPage.java:44)
+<td title='executeClass.ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode()'><b>verifyTheMoreInfoIsClickableOrNotInManageOfferCode</b><br>Test class: executeClass.ExecuteManageOfferCodePage</td>
+<td><div><pre>java.lang.AssertionError: expected [http://groceryapp.uniqassosiates.com/admin/list-product] but found [http://groceryapp.uniqassosiates.com/admin/list-offercode]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at executeClass.ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode(ExecuteManageOfferCodePage.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,11 +109,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace367725289", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace367725289'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because &quot;c&quot; is null
-	at utilities.ExcelReadClass.readStringData(ExcelReadClass.java:24)
-	at elementRepository.LoginPage.readUserName(LoginPage.java:52)
-	at executeClass.ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword(ExecuteLoginPage.java:44)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1107275448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1107275448'><pre>java.lang.AssertionError: expected [http://groceryapp.uniqassosiates.com/admin/list-product] but found [http://groceryapp.uniqassosiates.com/admin/list-offercode]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at executeClass.ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode(ExecuteManageOfferCodePage.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,7 +145,30 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>executeClass.ExecuteLoginPage@1fb669c3</td></tr>
+<td>executeClass.ExecuteManageOfferCodePage@327bcebd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='executeClass.ExecuteManageOfferCodePage.VerifyTheManageProductToHomePage()'><b>VerifyTheManageProductToHomePage</b><br>Test class: executeClass.ExecuteManageOfferCodePage</td>
+<td></td>
+<td>1</td>
+<td>executeClass.ExecuteManageOfferCodePage@327bcebd</td></tr>
+<tr>
+<td title='executeClass.ExecuteManageOfferCodePage.isNewButtonEnable()'><b>isNewButtonEnable</b><br>Test class: executeClass.ExecuteManageOfferCodePage</td>
+<td></td>
+<td>0</td>
+<td>executeClass.ExecuteManageOfferCodePage@327bcebd</td></tr>
+<tr>
+<td title='executeClass.ExecuteManageOfferCodePage.isSearchButtonEnable()'><b>isSearchButtonEnable</b><br>Test class: executeClass.ExecuteManageOfferCodePage</td>
+<td></td>
+<td>0</td>
+<td>executeClass.ExecuteManageOfferCodePage@327bcebd</td></tr>
 </table><p>
 </body>
 </html>

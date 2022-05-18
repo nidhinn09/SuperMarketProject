@@ -1,15 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="tests" name="Failed suite [Cross Browser Test Suite]">
+  <test thread-count="5" parallel="tests" name="Edge Browser Test(failed)">
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="executeClass.ExecuteLoginPage">
         <methods>
+          <include name="verifyThecheckBox"/>
           <include name="afterMethod"/>
           <include name="verifyTheInvalidUserNameAndInvalidPassword"/>
+          <include name="verifyTheValidUserNameAndInvalidPassword"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- executeClass.ExecuteLoginPage -->
+      <class name="executeClass.ExecuteManageProductPage">
+        <methods>
+          <include name="verifyTheSearchProduct"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.ExecuteManageProductPage -->
+      <class name="executeClass.ExecuteManageOfferCodePage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyTheMoreInfoIsClickableOrNotInManageOfferCode"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.ExecuteManageOfferCodePage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Edge Browser Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome Browser Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="executeClass.ExecuteLoginPage">
+        <methods>
+          <include name="verifyThecheckBox"/>
+          <include name="afterMethod"/>
+          <include name="verifyTheInvalidUserNameAndInvalidPassword"/>
+          <include name="verifyTheValidUserNameAndInvalidPassword"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.ExecuteLoginPage -->
+      <class name="executeClass.ExecuteManageProductPage">
+        <methods>
+          <include name="verifyTheSearchProduct"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.ExecuteManageProductPage -->
+      <class name="executeClass.ExecuteManageOfferCodePage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyTheMoreInfoIsClickableOrNotInManageOfferCode"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.ExecuteManageOfferCodePage -->
+    </classes>
+  </test> <!-- Chrome Browser Test(failed) -->
+</suite> <!-- Failed suite [Cross Browser Test Suite] -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Cross Browser Test Suite" thread-count="5" parallel="tests">
+	<test name="Chrome Browser Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="executeClass.ExecuteLoginPage"></class>
+			<class name="executeClass.ExecuteDashboardPage"></class>
+			<class name="executeClass.ExecuteMangePage"></class>
+			<class name="executeClass.ExecuteAdminUserPage"></class>
+			<class name="executeClass.ExecuteCategoryPage"></class>
+			<class name="executeClass.ExecuteManageProductPage"></class>
+			<class name="executeClass.ExecuteManageOfferCodePage"></class>
+
+		</classes>
+	</test>
+
+	<test name="Edge Browser Test">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="executeClass.ExecuteLoginPage"></class>
+			<class name="executeClass.ExecuteDashboardPage"></class>
+			<class name="executeClass.ExecuteMangePage"></class>
+			<class name="executeClass.ExecuteAdminUserPage"></class>
+			<class name="executeClass.ExecuteCategoryPage"></class>
+			<class name="executeClass.ExecuteManageProductPage"></class>
+			<class name="executeClass.ExecuteManageOfferCodePage"></class>
+
+		</classes>
+	</test>
+</suite>
