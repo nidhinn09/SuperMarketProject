@@ -1,5 +1,7 @@
 package elementRepository;
 
+import java.awt.AWTException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,11 +10,13 @@ import org.openqa.selenium.support.PageFactory;
 import net.bytebuddy.asm.Advice.Return;
 import utilities.ExplicitWaitClass;
 import utilities.GeneralUtilities;
+import utilities.RobotClass;
 
 public class ManagePage {
 	WebDriver driver; 
 	GeneralUtilities gl= new GeneralUtilities();
 	ExplicitWaitClass ew = new ExplicitWaitClass(); 
+	RobotClass rb= new RobotClass();
 	
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/list-page'])[2]")
 	WebElement moreinfo;
@@ -34,7 +38,14 @@ public class ManagePage {
 	WebElement alertMessage;
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/home'])[1]")
 	WebElement homePage;
-	
+	@FindBy(xpath = "//*[@id='title']")
+	WebElement NewValue;
+	@FindBy(xpath = "//*[@id='page']")
+	WebElement pageNew;
+	@FindBy(xpath = "//*[@id='main_img']")
+	WebElement chooseFile;
+	@FindBy(xpath = "//button[@class='btn btn-danger']")
+	WebElement saveButton;
 
 	public ManagePage(WebDriver driver) {
 		this.driver= driver;
@@ -47,6 +58,19 @@ public class ManagePage {
 	public boolean newButton() {
 		return gl.elementDisplayed(newButton);
 	}
+	public void enterNewProduct() {
+		gl.clickElement(newButton);
+	}
+	public void enterTitle(String value) {
+		gl.enterValues(NewValue, value);
+	}
+	public void enterPage(String value) {
+		gl.enterValues(pageNew, value);
+	}
+	public void fileSave() {
+		gl.clickElement(saveButton);
+	}
+	
 	public void searchIconClick() {
 		gl.clickElement(searchIcon);
 	}

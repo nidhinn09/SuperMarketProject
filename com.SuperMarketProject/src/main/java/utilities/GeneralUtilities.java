@@ -27,9 +27,10 @@ public class GeneralUtilities {
 	public void clickElement(WebElement element) {
 		element.click();
 	}
-	public boolean isSelected(WebElement element) {
+	public boolean isCheckBoxSelect(WebElement element) {
 		return element.isSelected();
 	}
+	
 	public Boolean isEnabled(WebElement element) {
 		return element.isEnabled();
 	}

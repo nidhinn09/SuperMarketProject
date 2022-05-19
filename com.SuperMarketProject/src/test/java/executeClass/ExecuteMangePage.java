@@ -5,13 +5,16 @@ import org.testng.annotations.Test;
 
 import elementRepository.LoginPage;
 import elementRepository.ManagePage;
+
+import java.awt.AWTException;
+
 import org.testng.Assert;
 
 
 public class ExecuteMangePage extends BaseClass {
 	LoginPage lp;
 	ManagePage mp;
-	@Test(priority = 0)
+	@Test(enabled = false)
 	public void verifyTheMoreInfoIsClickableOrNotInManagePageList() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -24,7 +27,7 @@ public class ExecuteMangePage extends BaseClass {
 		String actualURL= driver.getCurrentUrl();
 		Assert.assertEquals(actualURL, expectedURL);
 	}
-	@Test(priority = 1)
+	@Test(enabled = false)
 	public void isNewButtonDisplayed() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -37,7 +40,7 @@ public class ExecuteMangePage extends BaseClass {
 		Assert.assertTrue(actual);
 
 	}
-	@Test(priority = 2)
+	@Test(enabled = false)
 	public void isSearchFunctionalityWorkingFineOrNot() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -52,7 +55,7 @@ public class ExecuteMangePage extends BaseClass {
 		String expectedResult = mp.searchName.getText();
 		Assert.assertEquals(expectedResult, actualResult);
 	}
-	@Test(priority = 3)
+	@Test(enabled = false)
 	public void isafterUpdateAlertMessage() throws InterruptedException{
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -69,7 +72,7 @@ public class ExecuteMangePage extends BaseClass {
 		Boolean actual = mp.alertMessage();
 		Assert.assertTrue(actual);
 	}
-	@Test(priority=4)
+	@Test(enabled = false)
 	public void verifyTheMangePageToHomePage() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -83,6 +86,7 @@ public class ExecuteMangePage extends BaseClass {
 		String actualURL=driver.getCurrentUrl();
 		Assert.assertEquals(expectedURL, actualURL);
 	}
+	
 
 
 }

@@ -4,7 +4,7 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="executeClass.ExecuteLoginPage"></class>
-			<class name="executeClass.ExecuteDashboardPage"></class>
+	    	 <class name="executeClass.ExecuteDashboardPage"></class>
 			<class name="executeClass.ExecuteMangePage"></class>
 			<class name="executeClass.ExecuteAdminUserPage"></class>
 			<class name="executeClass.ExecuteCategoryPage"></class>

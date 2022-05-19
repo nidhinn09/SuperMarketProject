@@ -13,7 +13,7 @@ public class ExecuteManageProductPage extends BaseClass {
 	DashboardPage dp;
 	ManageProductPage mpd;
 
-	@Test(priority=0)
+	@Test(enabled = false)
 	public void verifyTheMoreInfoIsClickableOrNotInManageProductList() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -28,7 +28,7 @@ public class ExecuteManageProductPage extends BaseClass {
 		Assert.assertEquals(actualURL, expectedURL);
 	}
 
-	@Test(priority=1)
+	@Test(enabled = false)
 	public void isNewButtonEnable() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -41,7 +41,7 @@ public class ExecuteManageProductPage extends BaseClass {
 		Boolean actual=mpd.isNewButtoninManageProductEnable();
 		Assert.assertTrue(actual);
 	}
-	@Test(priority=2)
+	@Test(enabled = false)
 	public void isSearchButtonEnable() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -54,7 +54,7 @@ public class ExecuteManageProductPage extends BaseClass {
 		Boolean actual=mpd.isSearchButtonInManageProductEnable();
 		Assert.assertTrue(actual);
 	}
-	@Test(priority=3)
+	@Test(priority=0)
 	public void verifyTheSearchProduct() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -65,16 +65,17 @@ public class ExecuteManageProductPage extends BaseClass {
 		mpd = new ManageProductPage(driver);
 		mpd.moreInfoManageProduct();
 		mpd.searchicon();
-		mpd.enterTitleSearch("Maggi Noodle P833 Combo");
-		mpd.categoryProduct(3);
-		//mpd.subCategoryProduct(88);
+		mpd.enterTitleSearch("apple ");
+		mpd.categoryProduct(1);
+		//mpd.subCategoryProduct(2);
 		mpd.productSearchButton();
-		String expectedValue= "Maggi Noodle P833 Combo";
-		String actualValue= mpd.getValue(); Assert.assertEquals(actualValue, expectedValue);
+		String expectedValue= "apple";
+		String actualValue= mpd.getValue();
+		Assert.assertEquals(actualValue, expectedValue);
 
 
 	}
-	@Test(priority=4)
+	@Test(enabled = false)
 	public void isEditButtonInProduct(){
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -89,7 +90,7 @@ public class ExecuteManageProductPage extends BaseClass {
 		
 		
 	}
-	@Test(priority=5)
+	@Test(enabled = false)
 	public void VerifyTheManageProductToHomePage() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");

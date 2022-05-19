@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="executeClass.ExecuteManageOfferCodePage">
+      <class name="executeClass.ExecuteLoginPage">
         <methods>
+          <include name="verifyThecheckBox"/>
           <include name="afterMethod"/>
-          <include name="verifyTheMoreInfoIsClickableOrNotInManageOfferCode"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- executeClass.ExecuteManageOfferCodePage -->
+      </class> <!-- executeClass.ExecuteLoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

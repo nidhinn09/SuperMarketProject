@@ -8,12 +8,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import utilities.ExcelReadClass;
+import utilities.ExplicitWaitClass;
 import utilities.GeneralUtilities;
 
 public class LoginPage {
 	
 	  WebDriver driver; 
 	  GeneralUtilities gl= new GeneralUtilities();
+	  ExplicitWaitClass ew= new ExplicitWaitClass();
 	  
 	  @FindBy(name = "username") 
 	  WebElement user;
@@ -35,8 +37,11 @@ public class LoginPage {
 	  public void enterPassword(String pass) {
 		  gl.enterValues(password, pass);
 	  }
-	  public boolean remembermeSelectedOrNot() {
-		 return gl.isSelected(rememberMe);
+	  public void selectRememberme() {
+		  gl.clickElement(rememberMe);
+	  }
+	  public boolean remembermeCheckboxSelectedOrNot() {
+		 return gl.isEnabled(rememberMe);
 	  }
 	  public void clickSignInButton() {
 		  gl.clickElement(signIn);
@@ -55,7 +60,9 @@ public class LoginPage {
 	  public String readPassword(int r,int c) throws IOException {
 		  return ExcelReadClass.readStringData(r, c);
 	  }
-	  
+	  public void explicitWait() {
+		  ew.elementToBeClicked(driver, rememberMe);
+	  }
 	 
 
 }

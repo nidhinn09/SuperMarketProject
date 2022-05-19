@@ -1,115 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="62" passed="52" failed="10" skipped="0">
+<testng-results ignored="20" total="62" passed="40" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-18T10:48:05Z" name="Cross Browser Test Suite" finished-at="2022-05-18T10:50:04Z" duration-ms="119037">
+  <suite started-at="2022-05-19T13:01:08Z" name="Cross Browser Test Suite" finished-at="2022-05-19T13:03:33Z" duration-ms="145091">
     <groups>
     </groups>
-    <test started-at="2022-05-18T10:48:05Z" name="Edge Browser Test" finished-at="2022-05-18T10:50:04Z" duration-ms="118987">
+    <test started-at="2022-05-19T13:01:08Z" name="Chrome Browser Test" finished-at="2022-05-19T13:02:55Z" duration-ms="106890">
       <class name="executeClass.ExecuteManageProductPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:48:32Z" name="beforeMethod" finished-at="2022-05-18T10:48:34Z" duration-ms="1892" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@6a6afff2]" started-at="2022-05-19T13:01:21Z" name="beforeMethod" finished-at="2022-05-19T13:01:25Z" duration-ms="3331" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManageProductList()[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:48:34Z" name="verifyTheMoreInfoIsClickableOrNotInManageProductList" finished-at="2022-05-18T10:48:35Z" duration-ms="1094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManageProductList -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:48:35Z" name="afterMethod" finished-at="2022-05-18T10:48:35Z" duration-ms="420" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManageProductList status=SUCCESS method=ExecuteManageProductPage.verifyTheMoreInfoIsClickableOrNotInManageProductList()[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:48:57Z" name="beforeMethod" finished-at="2022-05-18T10:48:59Z" duration-ms="2128" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:48:59Z" name="isNewButtonEnable" finished-at="2022-05-18T10:49:00Z" duration-ms="1255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNewButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:00Z" name="afterMethod" finished-at="2022-05-18T10:49:01Z" duration-ms="282" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteManageProductPage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageProductPage@41e1e210] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:16Z" name="beforeMethod" finished-at="2022-05-18T10:49:18Z" duration-ms="1865" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:18Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:19Z" duration-ms="1070" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:19Z" name="afterMethod" finished-at="2022-05-18T10:49:19Z" duration-ms="253" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteManageProductPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageProductPage@41e1e210] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:40Z" name="beforeMethod" finished-at="2022-05-18T10:49:41Z" duration-ms="1736" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheSearchProduct()[pri:3, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:41Z" name="verifyTheSearchProduct" finished-at="2022-05-18T10:49:43Z" duration-ms="1970" status="FAIL">
+        <test-method signature="verifyTheSearchProduct()[pri:0, instance:executeClass.ExecuteManageProductPage@6a6afff2]" started-at="2022-05-19T13:01:25Z" name="verifyTheSearchProduct" finished-at="2022-05-19T13:01:27Z" duration-ms="2551" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Maggi Noodle P833 Combo] but found [Maggi Noodle P833 Combo P834]]]>
+              <![CDATA[expected [apple] but found [apple P792 Combo]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Maggi Noodle P833 Combo] but found [Maggi Noodle P833 Combo P834]
+              <![CDATA[java.lang.AssertionError: expected [apple] but found [apple P792 Combo]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at executeClass.ExecuteManageProductPage.verifyTheSearchProduct(ExecuteManageProductPage.java:73)
+at executeClass.ExecuteManageProductPage.verifyTheSearchProduct(ExecuteManageProductPage.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -136,63 +58,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheSearchProduct -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:43Z" name="afterMethod" finished-at="2022-05-18T10:49:44Z" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@6a6afff2]" started-at="2022-05-19T13:01:27Z" name="afterMethod" finished-at="2022-05-19T13:01:27Z" duration-ms="167" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheSearchProduct status=FAILURE method=ExecuteManageProductPage.verifyTheSearchProduct()[pri:3, instance:executeClass.ExecuteManageProductPage@41e1e210] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:54Z" name="beforeMethod" finished-at="2022-05-18T10:49:55Z" duration-ms="1713" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isEditButtonInProduct()[pri:4, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:55Z" name="isEditButtonInProduct" finished-at="2022-05-18T10:49:56Z" duration-ms="1093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isEditButtonInProduct -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:49:56Z" name="afterMethod" finished-at="2022-05-18T10:49:57Z" duration-ms="310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isEditButtonInProduct status=SUCCESS method=ExecuteManageProductPage.isEditButtonInProduct()[pri:4, instance:executeClass.ExecuteManageProductPage@41e1e210] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:50:00Z" name="beforeMethod" finished-at="2022-05-18T10:50:02Z" duration-ms="1871" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyTheManageProductToHomePage()[pri:5, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:50:02Z" name="VerifyTheManageProductToHomePage" finished-at="2022-05-18T10:50:04Z" duration-ms="1933" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyTheManageProductToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@41e1e210]" started-at="2022-05-18T10:50:04Z" name="afterMethod" finished-at="2022-05-18T10:50:04Z" duration-ms="261" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyTheManageProductToHomePage status=SUCCESS method=ExecuteManageProductPage.VerifyTheManageProductToHomePage()[pri:5, instance:executeClass.ExecuteManageProductPage@41e1e210] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheSearchProduct status=FAILURE method=ExecuteManageProductPage.verifyTheSearchProduct()[pri:0, instance:executeClass.ExecuteManageProductPage@6a6afff2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -201,1144 +71,48 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- afterMethod -->
       </class> <!-- executeClass.ExecuteManageProductPage -->
       <class name="executeClass.ExecuteLoginPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:48:05Z" name="beforeMethod" finished-at="2022-05-18T10:48:08Z" duration-ms="3215" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:01:08Z" name="beforeMethod" finished-at="2022-05-19T13:01:11Z" duration-ms="2535" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:48:08Z" name="verifyThecheckBox" finished-at="2022-05-18T10:48:19Z" duration-ms="10789" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='remember']"}
-  (Session info: MicrosoftEdge=101.0.1210.47)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'LAPTOP-KI9HM9P0', ip: '192.168.0.153', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [6eb5cbfdf358aa19682897d5dfda479d, findElement {using=xpath, value=//label[@for='remember']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.47, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:65328}, msedge: {msedgedriverVersion: 101.0.1210.47 (f5323bd54bb6..., userDataDir: C:\Users\nidhi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65328/devtoo..., se:cdpVersion: 101.0.1210.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6eb5cbfdf358aa19682897d5dfda479d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='remember']"}
-  (Session info: MicrosoftEdge=101.0.1210.47)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'LAPTOP-KI9HM9P0', ip: '192.168.0.153', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [6eb5cbfdf358aa19682897d5dfda479d, findElement {using=xpath, value=//label[@for='remember']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.47, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:65328}, msedge: {msedgedriverVersion: 101.0.1210.47 (f5323bd54bb6..., userDataDir: C:\Users\nidhi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65328/devtoo..., se:cdpVersion: 101.0.1210.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6eb5cbfdf358aa19682897d5dfda479d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy17.isSelected(Unknown Source)
-at utilities.GeneralUtilities.isSelected(GeneralUtilities.java:31)
-at elementRepository.LoginPage.remembermeSelectedOrNot(LoginPage.java:39)
-at executeClass.ExecuteLoginPage.verifyThecheckBox(ExecuteLoginPage.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:01:11Z" name="verifyThecheckBox" finished-at="2022-05-19T13:01:11Z" duration-ms="741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThecheckBox -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:48:19Z" name="afterMethod" finished-at="2022-05-18T10:48:20Z" duration-ms="527" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:01:11Z" name="afterMethod" finished-at="2022-05-19T13:01:11Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyThecheckBox status=FAILURE method=ExecuteLoginPage.verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
+                <![CDATA[[TestResult name=verifyThecheckBox status=SUCCESS method=ExecuteLoginPage.verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:48:39Z" name="beforeMethod" finished-at="2022-05-18T10:48:40Z" duration-ms="1769" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:01:32Z" name="beforeMethod" finished-at="2022-05-19T13:01:34Z" duration-ms="1720" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheSuccessfulLogin()[pri:1, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:48:40Z" name="verifyTheSuccessfulLogin" finished-at="2022-05-18T10:48:42Z" duration-ms="1210" status="PASS">
+        <test-method signature="verifyTheSuccessfulLogin()[pri:1, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:01:34Z" name="verifyTheSuccessfulLogin" finished-at="2022-05-19T13:01:38Z" duration-ms="3705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheSuccessfulLogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:48:42Z" name="afterMethod" finished-at="2022-05-18T10:48:42Z" duration-ms="245" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheSuccessfulLogin status=SUCCESS method=ExecuteLoginPage.verifyTheSuccessfulLogin()[pri:1, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:49:04Z" name="beforeMethod" finished-at="2022-05-18T10:49:06Z" duration-ms="1950" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:49:06Z" name="verifyTheInvalidUserNameAndInvalidPassword" finished-at="2022-05-18T10:49:06Z" duration-ms="64" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because "c" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because "c" is null
-at utilities.ExcelReadClass.readStringData(ExcelReadClass.java:24)
-at elementRepository.LoginPage.readUserName(LoginPage.java:52)
-at executeClass.ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword(ExecuteLoginPage.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheInvalidUserNameAndInvalidPassword -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:49:06Z" name="afterMethod" finished-at="2022-05-18T10:49:06Z" duration-ms="390" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheInvalidUserNameAndInvalidPassword status=FAILURE method=ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:49:22Z" name="beforeMethod" finished-at="2022-05-18T10:49:24Z" duration-ms="1716" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:49:24Z" name="verifyTheValidUserNameAndInvalidPassword" finished-at="2022-05-18T10:49:24Z" duration-ms="460" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [http://groceryapp.uniqassosiates.com/admin] but found [http://groceryapp.uniqassosiates.com/admin/login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://groceryapp.uniqassosiates.com/admin] but found [http://groceryapp.uniqassosiates.com/admin/login]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at executeClass.ExecuteLoginPage.verifyTheValidUserNameAndInvalidPassword(ExecuteLoginPage.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheValidUserNameAndInvalidPassword -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-18T10:49:24Z" name="afterMethod" finished-at="2022-05-18T10:49:25Z" duration-ms="398" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheValidUserNameAndInvalidPassword status=FAILURE method=ExecuteLoginPage.verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteLoginPage -->
-      <class name="executeClass.ExecuteDashboardPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-18T10:48:20Z" name="beforeMethod" finished-at="2022-05-18T10:48:22Z" duration-ms="1965" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isDashboardPageDisplayed()[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-18T10:48:22Z" name="isDashboardPageDisplayed" finished-at="2022-05-18T10:48:22Z" duration-ms="656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isDashboardPageDisplayed -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-18T10:48:22Z" name="afterMethod" finished-at="2022-05-18T10:48:22Z" duration-ms="309" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isDashboardPageDisplayed status=SUCCESS method=ExecuteDashboardPage.isDashboardPageDisplayed()[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-18T10:48:42Z" name="beforeMethod" finished-at="2022-05-18T10:48:44Z" duration-ms="1984" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheLogut()[pri:1, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-18T10:48:44Z" name="verifyTheLogut" finished-at="2022-05-18T10:48:45Z" duration-ms="1091" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheLogut -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-18T10:48:45Z" name="afterMethod" finished-at="2022-05-18T10:48:45Z" duration-ms="305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheLogut status=SUCCESS method=ExecuteDashboardPage.verifyTheLogut()[pri:1, instance:executeClass.ExecuteDashboardPage@53976f5c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteDashboardPage -->
-      <class name="executeClass.ExecuteAdminUserPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:48:26Z" name="beforeMethod" finished-at="2022-05-18T10:48:28Z" duration-ms="1858" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:48:28Z" name="isNewButtonDisplayed" finished-at="2022-05-18T10:48:29Z" duration-ms="1057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNewButtonDisplayed -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:48:29Z" name="afterMethod" finished-at="2022-05-18T10:48:29Z" duration-ms="239" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isNewButtonDisplayed status=SUCCESS method=ExecuteAdminUserPage.isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:48:49Z" name="beforeMethod" finished-at="2022-05-18T10:48:51Z" duration-ms="2042" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:48:51Z" name="verifyAddTheNewAdminUser" finished-at="2022-05-18T10:48:53Z" duration-ms="1984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddTheNewAdminUser -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:48:53Z" name="afterMethod" finished-at="2022-05-18T10:48:53Z" duration-ms="250" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAddTheNewAdminUser status=SUCCESS method=ExecuteAdminUserPage.verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@2f8dad04] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:49:10Z" name="beforeMethod" finished-at="2022-05-18T10:49:11Z" duration-ms="1786" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:49:11Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:13Z" duration-ms="1150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:49:13Z" name="afterMethod" finished-at="2022-05-18T10:49:13Z" duration-ms="215" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@2f8dad04] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:49:34Z" name="beforeMethod" finished-at="2022-05-18T10:49:35Z" duration-ms="1617" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:49:35Z" name="isActiveButtonEnable" finished-at="2022-05-18T10:49:36Z" duration-ms="1011" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isActiveButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2f8dad04]" started-at="2022-05-18T10:49:36Z" name="afterMethod" finished-at="2022-05-18T10:49:37Z" duration-ms="221" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isActiveButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@2f8dad04] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteAdminUserPage -->
-      <class name="executeClass.ExecuteManageOfferCodePage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:48:35Z" name="beforeMethod" finished-at="2022-05-18T10:48:37Z" duration-ms="1886" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:48:37Z" name="verifyTheMoreInfoIsClickableOrNotInManageOfferCode" finished-at="2022-05-18T10:48:38Z" duration-ms="935" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [http://groceryapp.uniqassosiates.com/admin/list-product] but found [http://groceryapp.uniqassosiates.com/admin/list-offercode]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://groceryapp.uniqassosiates.com/admin/list-product] but found [http://groceryapp.uniqassosiates.com/admin/list-offercode]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at executeClass.ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode(ExecuteManageOfferCodePage.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManageOfferCode -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:48:38Z" name="afterMethod" finished-at="2022-05-18T10:48:39Z" duration-ms="391" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManageOfferCode status=FAILURE method=ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:01Z" name="beforeMethod" finished-at="2022-05-18T10:49:02Z" duration-ms="1876" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:02Z" name="isNewButtonEnable" finished-at="2022-05-18T10:49:04Z" duration-ms="1128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNewButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:04Z" name="afterMethod" finished-at="2022-05-18T10:49:04Z" duration-ms="269" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@be35cd9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:19Z" name="beforeMethod" finished-at="2022-05-18T10:49:21Z" duration-ms="1773" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:21Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:22Z" duration-ms="1014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:22Z" name="afterMethod" finished-at="2022-05-18T10:49:22Z" duration-ms="232" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@be35cd9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:44Z" name="beforeMethod" finished-at="2022-05-18T10:49:45Z" duration-ms="1846" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:45Z" name="VerifyTheManageProductToHomePage" finished-at="2022-05-18T10:49:47Z" duration-ms="1327" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyTheManageProductToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@be35cd9]" started-at="2022-05-18T10:49:47Z" name="afterMethod" finished-at="2022-05-18T10:49:47Z" duration-ms="267" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyTheManageProductToHomePage status=SUCCESS method=ExecuteManageOfferCodePage.VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@be35cd9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteManageOfferCodePage -->
-      <class name="executeClass.ExecuteMangePage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:48:22Z" name="beforeMethod" finished-at="2022-05-18T10:48:24Z" duration-ms="1894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManagePageList()[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:48:24Z" name="verifyTheMoreInfoIsClickableOrNotInManagePageList" finished-at="2022-05-18T10:48:25Z" duration-ms="991" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManagePageList -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:48:25Z" name="afterMethod" finished-at="2022-05-18T10:48:26Z" duration-ms="297" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManagePageList status=SUCCESS method=ExecuteMangePage.verifyTheMoreInfoIsClickableOrNotInManagePageList()[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:48:45Z" name="beforeMethod" finished-at="2022-05-18T10:48:47Z" duration-ms="2179" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonDisplayed()[pri:1, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:48:47Z" name="isNewButtonDisplayed" finished-at="2022-05-18T10:48:49Z" duration-ms="1250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNewButtonDisplayed -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:48:49Z" name="afterMethod" finished-at="2022-05-18T10:48:49Z" duration-ms="308" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isNewButtonDisplayed status=SUCCESS method=ExecuteMangePage.isNewButtonDisplayed()[pri:1, instance:executeClass.ExecuteMangePage@2bfc268b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:06Z" name="beforeMethod" finished-at="2022-05-18T10:49:08Z" duration-ms="1812" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchFunctionalityWorkingFineOrNot()[pri:2, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:08Z" name="isSearchFunctionalityWorkingFineOrNot" finished-at="2022-05-18T10:49:09Z" duration-ms="1283" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchFunctionalityWorkingFineOrNot -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:09Z" name="afterMethod" finished-at="2022-05-18T10:49:10Z" duration-ms="241" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchFunctionalityWorkingFineOrNot status=SUCCESS method=ExecuteMangePage.isSearchFunctionalityWorkingFineOrNot()[pri:2, instance:executeClass.ExecuteMangePage@2bfc268b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:25Z" name="beforeMethod" finished-at="2022-05-18T10:49:27Z" duration-ms="1795" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isafterUpdateAlertMessage()[pri:3, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:27Z" name="isafterUpdateAlertMessage" finished-at="2022-05-18T10:49:34Z" duration-ms="6931" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isafterUpdateAlertMessage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:34Z" name="afterMethod" finished-at="2022-05-18T10:49:34Z" duration-ms="245" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isafterUpdateAlertMessage status=SUCCESS method=ExecuteMangePage.isafterUpdateAlertMessage()[pri:3, instance:executeClass.ExecuteMangePage@2bfc268b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:47Z" name="beforeMethod" finished-at="2022-05-18T10:49:49Z" duration-ms="1713" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMangePageToHomePage()[pri:4, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:49Z" name="verifyTheMangePageToHomePage" finished-at="2022-05-18T10:49:50Z" duration-ms="1398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMangePageToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@2bfc268b]" started-at="2022-05-18T10:49:50Z" name="afterMethod" finished-at="2022-05-18T10:49:50Z" duration-ms="228" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMangePageToHomePage status=SUCCESS method=ExecuteMangePage.verifyTheMangePageToHomePage()[pri:4, instance:executeClass.ExecuteMangePage@2bfc268b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteMangePage -->
-      <class name="executeClass.ExecuteCategoryPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:48:29Z" name="beforeMethod" finished-at="2022-05-18T10:48:31Z" duration-ms="1813" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:48:31Z" name="verifyTheMoreInfoIsClickableOrNotInCategoryPageList" finished-at="2022-05-18T10:48:32Z" duration-ms="1122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInCategoryPageList -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:48:32Z" name="afterMethod" finished-at="2022-05-18T10:48:32Z" duration-ms="259" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInCategoryPageList status=SUCCESS method=ExecuteCategoryPage.verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:48:53Z" name="beforeMethod" finished-at="2022-05-18T10:48:55Z" duration-ms="2007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:48:55Z" name="isNewButtonEnable" finished-at="2022-05-18T10:48:57Z" duration-ms="1323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNewButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:48:57Z" name="afterMethod" finished-at="2022-05-18T10:48:57Z" duration-ms="348" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteCategoryPage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@29e495ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:13Z" name="beforeMethod" finished-at="2022-05-18T10:49:15Z" duration-ms="1734" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:15Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:16Z" duration-ms="1196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:16Z" name="afterMethod" finished-at="2022-05-18T10:49:16Z" duration-ms="325" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteCategoryPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@29e495ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:37Z" name="beforeMethod" finished-at="2022-05-18T10:49:38Z" duration-ms="1496" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:38Z" name="isSearchFunctionalityWorkingFineOrNot" finished-at="2022-05-18T10:49:39Z" duration-ms="1142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchFunctionalityWorkingFineOrNot -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:39Z" name="afterMethod" finished-at="2022-05-18T10:49:40Z" duration-ms="233" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchFunctionalityWorkingFineOrNot status=SUCCESS method=ExecuteCategoryPage.isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@29e495ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:50Z" name="beforeMethod" finished-at="2022-05-18T10:49:52Z" duration-ms="1812" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:52Z" name="isSearchValueActiveEnable" finished-at="2022-05-18T10:49:53Z" duration-ms="1185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchValueActiveEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:53Z" name="afterMethod" finished-at="2022-05-18T10:49:54Z" duration-ms="238" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchValueActiveEnable status=SUCCESS method=ExecuteCategoryPage.isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@29e495ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:57Z" name="beforeMethod" finished-at="2022-05-18T10:49:58Z" duration-ms="1735" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:49:58Z" name="verifyTheCategoryToHomePage" finished-at="2022-05-18T10:50:00Z" duration-ms="1293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheCategoryToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@29e495ff]" started-at="2022-05-18T10:50:00Z" name="afterMethod" finished-at="2022-05-18T10:50:00Z" duration-ms="232" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheCategoryToHomePage status=SUCCESS method=ExecuteCategoryPage.verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@29e495ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteCategoryPage -->
-    </test> <!-- Edge Browser Test -->
-    <test started-at="2022-05-18T10:48:05Z" name="Chrome Browser Test" finished-at="2022-05-18T10:50:04Z" duration-ms="119037">
-      <class name="executeClass.ExecuteManageProductPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:48:32Z" name="beforeMethod" finished-at="2022-05-18T10:48:34Z" duration-ms="1926" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManageProductList()[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:48:34Z" name="verifyTheMoreInfoIsClickableOrNotInManageProductList" finished-at="2022-05-18T10:48:35Z" duration-ms="1265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManageProductList -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:48:35Z" name="afterMethod" finished-at="2022-05-18T10:48:35Z" duration-ms="248" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManageProductList status=SUCCESS method=ExecuteManageProductPage.verifyTheMoreInfoIsClickableOrNotInManageProductList()[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:48:57Z" name="beforeMethod" finished-at="2022-05-18T10:48:59Z" duration-ms="2141" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:48:59Z" name="isNewButtonEnable" finished-at="2022-05-18T10:49:00Z" duration-ms="1260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNewButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:00Z" name="afterMethod" finished-at="2022-05-18T10:49:00Z" duration-ms="234" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteManageProductPage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageProductPage@1649b0e6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:16Z" name="beforeMethod" finished-at="2022-05-18T10:49:18Z" duration-ms="1893" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:18Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:19Z" duration-ms="1114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:19Z" name="afterMethod" finished-at="2022-05-18T10:49:20Z" duration-ms="239" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteManageProductPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageProductPage@1649b0e6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:40Z" name="beforeMethod" finished-at="2022-05-18T10:49:42Z" duration-ms="2182" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheSearchProduct()[pri:3, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:42Z" name="verifyTheSearchProduct" finished-at="2022-05-18T10:49:44Z" duration-ms="1706" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Maggi Noodle P833 Combo] but found [Maggi Noodle P833 Combo P834]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Maggi Noodle P833 Combo] but found [Maggi Noodle P833 Combo P834]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at executeClass.ExecuteManageProductPage.verifyTheSearchProduct(ExecuteManageProductPage.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheSearchProduct -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:44Z" name="afterMethod" finished-at="2022-05-18T10:49:44Z" duration-ms="299" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheSearchProduct status=FAILURE method=ExecuteManageProductPage.verifyTheSearchProduct()[pri:3, instance:executeClass.ExecuteManageProductPage@1649b0e6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:54Z" name="beforeMethod" finished-at="2022-05-18T10:49:55Z" duration-ms="1824" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isEditButtonInProduct()[pri:4, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:55Z" name="isEditButtonInProduct" finished-at="2022-05-18T10:49:57Z" duration-ms="1116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isEditButtonInProduct -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:49:57Z" name="afterMethod" finished-at="2022-05-18T10:49:57Z" duration-ms="165" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isEditButtonInProduct status=SUCCESS method=ExecuteManageProductPage.isEditButtonInProduct()[pri:4, instance:executeClass.ExecuteManageProductPage@1649b0e6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:50:00Z" name="beforeMethod" finished-at="2022-05-18T10:50:02Z" duration-ms="1847" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyTheManageProductToHomePage()[pri:5, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:50:02Z" name="VerifyTheManageProductToHomePage" finished-at="2022-05-18T10:50:04Z" duration-ms="2003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyTheManageProductToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@1649b0e6]" started-at="2022-05-18T10:50:04Z" name="afterMethod" finished-at="2022-05-18T10:50:04Z" duration-ms="175" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyTheManageProductToHomePage status=SUCCESS method=ExecuteManageProductPage.VerifyTheManageProductToHomePage()[pri:5, instance:executeClass.ExecuteManageProductPage@1649b0e6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteManageProductPage -->
-      <class name="executeClass.ExecuteLoginPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:48:05Z" name="beforeMethod" finished-at="2022-05-18T10:48:08Z" duration-ms="3168" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:48:08Z" name="verifyThecheckBox" finished-at="2022-05-18T10:48:19Z" duration-ms="10826" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='remember']"}
-  (Session info: chrome=101.0.4951.67)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'LAPTOP-KI9HM9P0', ip: '192.168.0.153', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [feb146e741e1c4739477d4d225beda63, findElement {using=xpath, value=//label[@for='remember']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\nidhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65325/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: feb146e741e1c4739477d4d225beda63]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='remember']"}
-  (Session info: chrome=101.0.4951.67)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'LAPTOP-KI9HM9P0', ip: '192.168.0.153', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [feb146e741e1c4739477d4d225beda63, findElement {using=xpath, value=//label[@for='remember']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\nidhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65325/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: feb146e741e1c4739477d4d225beda63
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy17.isSelected(Unknown Source)
-at utilities.GeneralUtilities.isSelected(GeneralUtilities.java:31)
-at elementRepository.LoginPage.remembermeSelectedOrNot(LoginPage.java:39)
-at executeClass.ExecuteLoginPage.verifyThecheckBox(ExecuteLoginPage.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyThecheckBox -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:48:19Z" name="afterMethod" finished-at="2022-05-18T10:48:19Z" duration-ms="363" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyThecheckBox status=FAILURE method=ExecuteLoginPage.verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:48:39Z" name="beforeMethod" finished-at="2022-05-18T10:48:40Z" duration-ms="1849" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheSuccessfulLogin()[pri:1, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:48:40Z" name="verifyTheSuccessfulLogin" finished-at="2022-05-18T10:48:42Z" duration-ms="1131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheSuccessfulLogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:48:42Z" name="afterMethod" finished-at="2022-05-18T10:48:42Z" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:01:38Z" name="afterMethod" finished-at="2022-05-19T13:01:38Z" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1349,7 +123,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:49:04Z" name="beforeMethod" finished-at="2022-05-18T10:49:06Z" duration-ms="1952" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:02:00Z" name="beforeMethod" finished-at="2022-05-19T13:02:02Z" duration-ms="2489" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1360,54 +134,22 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:49:06Z" name="verifyTheInvalidUserNameAndInvalidPassword" finished-at="2022-05-18T10:49:06Z" duration-ms="50" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because "c" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because "c" is null
-at utilities.ExcelReadClass.readStringData(ExcelReadClass.java:24)
-at elementRepository.LoginPage.readUserName(LoginPage.java:52)
-at executeClass.ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword(ExecuteLoginPage.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:02:02Z" name="verifyTheInvalidUserNameAndInvalidPassword" finished-at="2022-05-19T13:02:03Z" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheInvalidUserNameAndInvalidPassword -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:49:06Z" name="afterMethod" finished-at="2022-05-18T10:49:06Z" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:02:03Z" name="afterMethod" finished-at="2022-05-19T13:02:03Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheInvalidUserNameAndInvalidPassword status=FAILURE method=ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@5fa07e12] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheInvalidUserNameAndInvalidPassword status=SUCCESS method=ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@5fa07e12] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:49:23Z" name="beforeMethod" finished-at="2022-05-18T10:49:24Z" duration-ms="1836" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:02:20Z" name="beforeMethod" finished-at="2022-05-19T13:02:22Z" duration-ms="2823" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1418,51 +160,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:49:24Z" name="verifyTheValidUserNameAndInvalidPassword" finished-at="2022-05-18T10:49:25Z" duration-ms="387" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [http://groceryapp.uniqassosiates.com/admin] but found [http://groceryapp.uniqassosiates.com/admin/login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://groceryapp.uniqassosiates.com/admin] but found [http://groceryapp.uniqassosiates.com/admin/login]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at executeClass.ExecuteLoginPage.verifyTheValidUserNameAndInvalidPassword(ExecuteLoginPage.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:02:22Z" name="verifyTheValidUserNameAndInvalidPassword" finished-at="2022-05-19T13:02:24Z" duration-ms="1517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheValidUserNameAndInvalidPassword -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-18T10:49:25Z" name="afterMethod" finished-at="2022-05-18T10:49:25Z" duration-ms="393" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@5fa07e12]" started-at="2022-05-19T13:02:24Z" name="afterMethod" finished-at="2022-05-19T13:02:24Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheValidUserNameAndInvalidPassword status=FAILURE method=ExecuteLoginPage.verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@5fa07e12] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheValidUserNameAndInvalidPassword status=SUCCESS method=ExecuteLoginPage.verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@5fa07e12] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1471,7 +177,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- afterMethod -->
       </class> <!-- executeClass.ExecuteLoginPage -->
       <class name="executeClass.ExecuteAdminUserPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:48:26Z" name="beforeMethod" finished-at="2022-05-18T10:48:27Z" duration-ms="1700" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:01:14Z" name="beforeMethod" finished-at="2022-05-19T13:01:16Z" duration-ms="1848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1482,22 +188,22 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:48:27Z" name="isNewButtonDisplayed" finished-at="2022-05-18T10:48:28Z" duration-ms="1100" status="PASS">
+        <test-method signature="isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:01:16Z" name="isNewButtonDisplayed" finished-at="2022-05-19T13:01:18Z" duration-ms="1840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNewButtonDisplayed -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:48:28Z" name="afterMethod" finished-at="2022-05-18T10:48:28Z" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:01:18Z" name="afterMethod" finished-at="2022-05-19T13:01:18Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isNewButtonDisplayed status=SUCCESS method=ExecuteAdminUserPage.isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2] output={null}]]]>
+                <![CDATA[[TestResult name=isNewButtonDisplayed status=SUCCESS method=ExecuteAdminUserPage.isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:48:49Z" name="beforeMethod" finished-at="2022-05-18T10:48:51Z" duration-ms="2384" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:01:42Z" name="beforeMethod" finished-at="2022-05-19T13:01:47Z" duration-ms="4721" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1508,22 +214,22 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:48:51Z" name="verifyAddTheNewAdminUser" finished-at="2022-05-18T10:48:53Z" duration-ms="1971" status="PASS">
+        <test-method signature="verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:01:47Z" name="verifyAddTheNewAdminUser" finished-at="2022-05-19T13:01:50Z" duration-ms="2739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddTheNewAdminUser -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:48:53Z" name="afterMethod" finished-at="2022-05-18T10:48:53Z" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:01:50Z" name="afterMethod" finished-at="2022-05-19T13:01:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddTheNewAdminUser status=SUCCESS method=ExecuteAdminUserPage.verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@366647c2] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAddTheNewAdminUser status=SUCCESS method=ExecuteAdminUserPage.verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:49:10Z" name="beforeMethod" finished-at="2022-05-18T10:49:12Z" duration-ms="1942" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:02:03Z" name="beforeMethod" finished-at="2022-05-19T13:02:07Z" duration-ms="3962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1534,22 +240,22 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:49:12Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:13Z" duration-ms="1019" status="PASS">
+        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:02:07Z" name="isSearchButtonEnable" finished-at="2022-05-19T13:02:09Z" duration-ms="1903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:49:13Z" name="afterMethod" finished-at="2022-05-18T10:49:13Z" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:02:09Z" name="afterMethod" finished-at="2022-05-19T13:02:09Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@366647c2] output={null}]]]>
+                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:49:34Z" name="beforeMethod" finished-at="2022-05-18T10:49:36Z" duration-ms="1821" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:02:24Z" name="beforeMethod" finished-at="2022-05-19T13:02:27Z" duration-ms="3319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1560,15 +266,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:49:36Z" name="isActiveButtonEnable" finished-at="2022-05-18T10:49:37Z" duration-ms="920" status="PASS">
+        <test-method signature="isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:02:27Z" name="isActiveButtonEnable" finished-at="2022-05-19T13:02:29Z" duration-ms="1773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isActiveButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@366647c2]" started-at="2022-05-18T10:49:37Z" name="afterMethod" finished-at="2022-05-18T10:49:37Z" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@482bce4f]" started-at="2022-05-19T13:02:29Z" name="afterMethod" finished-at="2022-05-19T13:02:29Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isActiveButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@366647c2] output={null}]]]>
+                <![CDATA[[TestResult name=isActiveButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1577,7 +283,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- afterMethod -->
       </class> <!-- executeClass.ExecuteAdminUserPage -->
       <class name="executeClass.ExecuteDashboardPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-18T10:48:19Z" name="beforeMethod" finished-at="2022-05-18T10:48:21Z" duration-ms="1923" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-19T13:01:11Z" name="beforeMethod" finished-at="2022-05-19T13:01:13Z" duration-ms="1780" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1588,11 +294,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isDashboardPageDisplayed()[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-18T10:48:21Z" name="isDashboardPageDisplayed" finished-at="2022-05-18T10:48:22Z" duration-ms="844" status="PASS">
+        <test-method signature="isDashboardPageDisplayed()[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-19T13:01:13Z" name="isDashboardPageDisplayed" finished-at="2022-05-19T13:01:14Z" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isDashboardPageDisplayed -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-18T10:48:22Z" name="afterMethod" finished-at="2022-05-18T10:48:22Z" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-19T13:01:14Z" name="afterMethod" finished-at="2022-05-19T13:01:14Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1603,7 +309,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-18T10:48:42Z" name="beforeMethod" finished-at="2022-05-18T10:48:44Z" duration-ms="1836" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-19T13:01:38Z" name="beforeMethod" finished-at="2022-05-19T13:01:40Z" duration-ms="2504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1614,11 +320,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheLogut()[pri:1, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-18T10:48:44Z" name="verifyTheLogut" finished-at="2022-05-18T10:48:45Z" duration-ms="1214" status="PASS">
+        <test-method signature="verifyTheLogut()[pri:1, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-19T13:01:40Z" name="verifyTheLogut" finished-at="2022-05-19T13:01:42Z" duration-ms="2024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheLogut -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-18T10:48:45Z" name="afterMethod" finished-at="2022-05-18T10:48:45Z" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@55b53d44]" started-at="2022-05-19T13:01:42Z" name="afterMethod" finished-at="2022-05-19T13:01:42Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1631,7 +337,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- afterMethod -->
       </class> <!-- executeClass.ExecuteDashboardPage -->
       <class name="executeClass.ExecuteManageOfferCodePage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:48:35Z" name="beforeMethod" finished-at="2022-05-18T10:48:37Z" duration-ms="1855" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:01:27Z" name="beforeMethod" finished-at="2022-05-19T13:01:30Z" duration-ms="2754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1642,20 +348,286 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:48:37Z" name="verifyTheMoreInfoIsClickableOrNotInManageOfferCode" finished-at="2022-05-18T10:48:38Z" duration-ms="1103" status="FAIL">
+        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:01:30Z" name="verifyTheMoreInfoIsClickableOrNotInManageOfferCode" finished-at="2022-05-19T13:01:32Z" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManageOfferCode -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:01:32Z" name="afterMethod" finished-at="2022-05-19T13:01:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManageOfferCode status=SUCCESS method=ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:01:55Z" name="beforeMethod" finished-at="2022-05-19T13:01:57Z" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:01:57Z" name="isNewButtonEnable" finished-at="2022-05-19T13:02:00Z" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNewButtonEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:02:00Z" name="afterMethod" finished-at="2022-05-19T13:02:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:02:14Z" name="beforeMethod" finished-at="2022-05-19T13:02:18Z" duration-ms="4075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:02:18Z" name="isSearchButtonEnable" finished-at="2022-05-19T13:02:20Z" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchButtonEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:02:20Z" name="afterMethod" finished-at="2022-05-19T13:02:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:02:36Z" name="beforeMethod" finished-at="2022-05-19T13:02:38Z" duration-ms="2509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:02:38Z" name="VerifyTheManageProductToHomePage" finished-at="2022-05-19T13:02:43Z" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheManageProductToHomePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6]" started-at="2022-05-19T13:02:43Z" name="afterMethod" finished-at="2022-05-19T13:02:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheManageProductToHomePage status=SUCCESS method=ExecuteManageOfferCodePage.VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@1649b0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- executeClass.ExecuteManageOfferCodePage -->
+      <class name="executeClass.ExecuteCategoryPage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:01:18Z" name="beforeMethod" finished-at="2022-05-19T13:01:20Z" duration-ms="2078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:01:20Z" name="verifyTheMoreInfoIsClickableOrNotInCategoryPageList" finished-at="2022-05-19T13:01:21Z" duration-ms="1777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInCategoryPageList -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:01:21Z" name="afterMethod" finished-at="2022-05-19T13:01:21Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInCategoryPageList status=SUCCESS method=ExecuteCategoryPage.verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:01:50Z" name="beforeMethod" finished-at="2022-05-19T13:01:53Z" duration-ms="3874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:01:53Z" name="isNewButtonEnable" finished-at="2022-05-19T13:01:55Z" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNewButtonEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:01:55Z" name="afterMethod" finished-at="2022-05-19T13:01:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteCategoryPage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@366647c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:09Z" name="beforeMethod" finished-at="2022-05-19T13:02:12Z" duration-ms="2854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:12Z" name="isSearchButtonEnable" finished-at="2022-05-19T13:02:14Z" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchButtonEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:14Z" name="afterMethod" finished-at="2022-05-19T13:02:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteCategoryPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@366647c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:29Z" name="beforeMethod" finished-at="2022-05-19T13:02:31Z" duration-ms="2160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:31Z" name="isSearchFunctionalityWorkingFineOrNot" finished-at="2022-05-19T13:02:36Z" duration-ms="4690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchFunctionalityWorkingFineOrNot -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:36Z" name="afterMethod" finished-at="2022-05-19T13:02:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSearchFunctionalityWorkingFineOrNot status=SUCCESS method=ExecuteCategoryPage.isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@366647c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:43Z" name="beforeMethod" finished-at="2022-05-19T13:02:46Z" duration-ms="2586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:46Z" name="isSearchValueActiveEnable" finished-at="2022-05-19T13:02:49Z" duration-ms="3592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchValueActiveEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:49Z" name="afterMethod" finished-at="2022-05-19T13:02:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSearchValueActiveEnable status=SUCCESS method=ExecuteCategoryPage.isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@366647c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:49Z" name="beforeMethod" finished-at="2022-05-19T13:02:52Z" duration-ms="2808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:52Z" name="verifyTheCategoryToHomePage" finished-at="2022-05-19T13:02:55Z" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheCategoryToHomePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@366647c2]" started-at="2022-05-19T13:02:55Z" name="afterMethod" finished-at="2022-05-19T13:02:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheCategoryToHomePage status=SUCCESS method=ExecuteCategoryPage.verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@366647c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- executeClass.ExecuteCategoryPage -->
+    </test> <!-- Chrome Browser Test -->
+    <test started-at="2022-05-19T13:01:08Z" name="Edge Browser Test" finished-at="2022-05-19T13:03:33Z" duration-ms="145091">
+      <class name="executeClass.ExecuteManageProductPage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageProductPage@29e495ff]" started-at="2022-05-19T13:01:32Z" name="beforeMethod" finished-at="2022-05-19T13:01:36Z" duration-ms="4182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheSearchProduct()[pri:0, instance:executeClass.ExecuteManageProductPage@29e495ff]" started-at="2022-05-19T13:01:36Z" name="verifyTheSearchProduct" finished-at="2022-05-19T13:01:39Z" duration-ms="3005" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [http://groceryapp.uniqassosiates.com/admin/list-product] but found [http://groceryapp.uniqassosiates.com/admin/list-offercode]]]>
+              <![CDATA[expected [apple] but found [apple P792 Combo]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://groceryapp.uniqassosiates.com/admin/list-product] but found [http://groceryapp.uniqassosiates.com/admin/list-offercode]
+              <![CDATA[java.lang.AssertionError: expected [apple] but found [apple P792 Combo]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at executeClass.ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode(ExecuteManageOfferCodePage.java:27)
+at executeClass.ExecuteManageProductPage.verifyTheSearchProduct(ExecuteManageProductPage.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1681,90 +653,384 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManageOfferCode -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:48:38Z" name="afterMethod" finished-at="2022-05-18T10:48:39Z" duration-ms="344" status="PASS">
+        </test-method> <!-- verifyTheSearchProduct -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageProductPage@29e495ff]" started-at="2022-05-19T13:01:39Z" name="afterMethod" finished-at="2022-05-19T13:01:39Z" duration-ms="309" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManageOfferCode status=FAILURE method=ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheSearchProduct status=FAILURE method=ExecuteManageProductPage.verifyTheSearchProduct()[pri:0, instance:executeClass.ExecuteManageProductPage@29e495ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:00Z" name="beforeMethod" finished-at="2022-05-18T10:49:03Z" duration-ms="2058" status="PASS">
+      </class> <!-- executeClass.ExecuteManageProductPage -->
+      <class name="executeClass.ExecuteLoginPage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:01:08Z" name="beforeMethod" finished-at="2022-05-19T13:01:12Z" duration-ms="4164" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:03Z" name="isNewButtonEnable" finished-at="2022-05-18T10:49:04Z" duration-ms="1228" status="PASS">
+        <test-method signature="verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:01:12Z" name="verifyThecheckBox" finished-at="2022-05-19T13:01:13Z" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isNewButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:04Z" name="afterMethod" finished-at="2022-05-18T10:49:04Z" duration-ms="186" status="PASS">
+        </test-method> <!-- verifyThecheckBox -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:01:13Z" name="afterMethod" finished-at="2022-05-19T13:01:13Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@865dd6] output={null}]]]>
+                <![CDATA[[TestResult name=verifyThecheckBox status=SUCCESS method=ExecuteLoginPage.verifyThecheckBox()[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:20Z" name="beforeMethod" finished-at="2022-05-18T10:49:21Z" duration-ms="1862" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:01:47Z" name="beforeMethod" finished-at="2022-05-19T13:01:53Z" duration-ms="5608" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:21Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:22Z" duration-ms="1009" status="PASS">
+        <test-method signature="verifyTheSuccessfulLogin()[pri:1, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:01:53Z" name="verifyTheSuccessfulLogin" finished-at="2022-05-19T13:01:54Z" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:01:54Z" name="afterMethod" finished-at="2022-05-19T13:01:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheSuccessfulLogin status=SUCCESS method=ExecuteLoginPage.verifyTheSuccessfulLogin()[pri:1, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:02:28Z" name="beforeMethod" finished-at="2022-05-19T13:02:34Z" duration-ms="5694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:02:34Z" name="verifyTheInvalidUserNameAndInvalidPassword" finished-at="2022-05-19T13:02:35Z" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheInvalidUserNameAndInvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:02:35Z" name="afterMethod" finished-at="2022-05-19T13:02:35Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheInvalidUserNameAndInvalidPassword status=SUCCESS method=ExecuteLoginPage.verifyTheInvalidUserNameAndInvalidPassword()[pri:2, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:02:57Z" name="beforeMethod" finished-at="2022-05-19T13:03:01Z" duration-ms="3865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:03:01Z" name="verifyTheValidUserNameAndInvalidPassword" finished-at="2022-05-19T13:03:02Z" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheValidUserNameAndInvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteLoginPage@4e7912d8]" started-at="2022-05-19T13:03:02Z" name="afterMethod" finished-at="2022-05-19T13:03:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheValidUserNameAndInvalidPassword status=SUCCESS method=ExecuteLoginPage.verifyTheValidUserNameAndInvalidPassword()[pri:3, instance:executeClass.ExecuteLoginPage@4e7912d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- executeClass.ExecuteLoginPage -->
+      <class name="executeClass.ExecuteAdminUserPage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:01:18Z" name="beforeMethod" finished-at="2022-05-19T13:01:23Z" duration-ms="5359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:01:23Z" name="isNewButtonDisplayed" finished-at="2022-05-19T13:01:26Z" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNewButtonDisplayed -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:01:26Z" name="afterMethod" finished-at="2022-05-19T13:01:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isNewButtonDisplayed status=SUCCESS method=ExecuteAdminUserPage.isNewButtonDisplayed()[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:02:00Z" name="beforeMethod" finished-at="2022-05-19T13:02:06Z" duration-ms="5757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:02:06Z" name="verifyAddTheNewAdminUser" finished-at="2022-05-19T13:02:10Z" duration-ms="4420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddTheNewAdminUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:02:10Z" name="afterMethod" finished-at="2022-05-19T13:02:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddTheNewAdminUser status=SUCCESS method=ExecuteAdminUserPage.verifyAddTheNewAdminUser()[pri:1, instance:executeClass.ExecuteAdminUserPage@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:02:35Z" name="beforeMethod" finished-at="2022-05-19T13:02:41Z" duration-ms="5727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:02:41Z" name="isSearchButtonEnable" finished-at="2022-05-19T13:02:43Z" duration-ms="1761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:22Z" name="afterMethod" finished-at="2022-05-18T10:49:23Z" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:02:43Z" name="afterMethod" finished-at="2022-05-19T13:02:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@865dd6] output={null}]]]>
+                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteAdminUserPage@2bfc268b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:44Z" name="beforeMethod" finished-at="2022-05-18T10:49:46Z" duration-ms="1924" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:03:02Z" name="beforeMethod" finished-at="2022-05-19T13:03:08Z" duration-ms="6412" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:46Z" name="VerifyTheManageProductToHomePage" finished-at="2022-05-18T10:49:47Z" duration-ms="1201" status="PASS">
+        <test-method signature="isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:03:08Z" name="isActiveButtonEnable" finished-at="2022-05-19T13:03:10Z" duration-ms="1488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyTheManageProductToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@865dd6]" started-at="2022-05-18T10:49:47Z" name="afterMethod" finished-at="2022-05-18T10:49:47Z" duration-ms="176" status="PASS">
+        </test-method> <!-- isActiveButtonEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteAdminUserPage@2bfc268b]" started-at="2022-05-19T13:03:10Z" name="afterMethod" finished-at="2022-05-19T13:03:10Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyTheManageProductToHomePage status=SUCCESS method=ExecuteManageOfferCodePage.VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@865dd6] output={null}]]]>
+                <![CDATA[[TestResult name=isActiveButtonEnable status=SUCCESS method=ExecuteAdminUserPage.isActiveButtonEnable()[pri:3, instance:executeClass.ExecuteAdminUserPage@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- executeClass.ExecuteAdminUserPage -->
+      <class name="executeClass.ExecuteDashboardPage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-19T13:01:13Z" name="beforeMethod" finished-at="2022-05-19T13:01:17Z" duration-ms="4414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isDashboardPageDisplayed()[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-19T13:01:17Z" name="isDashboardPageDisplayed" finished-at="2022-05-19T13:01:18Z" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDashboardPageDisplayed -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-19T13:01:18Z" name="afterMethod" finished-at="2022-05-19T13:01:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isDashboardPageDisplayed status=SUCCESS method=ExecuteDashboardPage.isDashboardPageDisplayed()[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-19T13:01:54Z" name="beforeMethod" finished-at="2022-05-19T13:01:59Z" duration-ms="4678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheLogut()[pri:1, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-19T13:01:59Z" name="verifyTheLogut" finished-at="2022-05-19T13:02:00Z" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheLogut -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteDashboardPage@53976f5c]" started-at="2022-05-19T13:02:00Z" name="afterMethod" finished-at="2022-05-19T13:02:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheLogut status=SUCCESS method=ExecuteDashboardPage.verifyTheLogut()[pri:1, instance:executeClass.ExecuteDashboardPage@53976f5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- executeClass.ExecuteDashboardPage -->
+      <class name="executeClass.ExecuteManageOfferCodePage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:01:39Z" name="beforeMethod" finished-at="2022-05-19T13:01:45Z" duration-ms="5761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:01:45Z" name="verifyTheMoreInfoIsClickableOrNotInManageOfferCode" finished-at="2022-05-19T13:01:47Z" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManageOfferCode -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:01:47Z" name="afterMethod" finished-at="2022-05-19T13:01:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManageOfferCode status=SUCCESS method=ExecuteManageOfferCodePage.verifyTheMoreInfoIsClickableOrNotInManageOfferCode()[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:02:19Z" name="beforeMethod" finished-at="2022-05-19T13:02:26Z" duration-ms="6612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:02:26Z" name="isNewButtonEnable" finished-at="2022-05-19T13:02:28Z" duration-ms="2303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNewButtonEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:02:28Z" name="afterMethod" finished-at="2022-05-19T13:02:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteManageOfferCodePage@41e1e210] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:02:50Z" name="beforeMethod" finished-at="2022-05-19T13:02:56Z" duration-ms="6407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:02:56Z" name="isSearchButtonEnable" finished-at="2022-05-19T13:02:57Z" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchButtonEnable -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:02:57Z" name="afterMethod" finished-at="2022-05-19T13:02:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteManageOfferCodePage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteManageOfferCodePage@41e1e210] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:03:15Z" name="beforeMethod" finished-at="2022-05-19T13:03:20Z" duration-ms="4634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:03:20Z" name="VerifyTheManageProductToHomePage" finished-at="2022-05-19T13:03:21Z" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheManageProductToHomePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteManageOfferCodePage@41e1e210]" started-at="2022-05-19T13:03:21Z" name="afterMethod" finished-at="2022-05-19T13:03:21Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheManageProductToHomePage status=SUCCESS method=ExecuteManageOfferCodePage.VerifyTheManageProductToHomePage()[pri:3, instance:executeClass.ExecuteManageOfferCodePage@41e1e210] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1772,289 +1038,157 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- executeClass.ExecuteManageOfferCodePage -->
-      <class name="executeClass.ExecuteMangePage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:48:22Z" name="beforeMethod" finished-at="2022-05-18T10:48:24Z" duration-ms="1848" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInManagePageList()[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:48:24Z" name="verifyTheMoreInfoIsClickableOrNotInManagePageList" finished-at="2022-05-18T10:48:25Z" duration-ms="1062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInManagePageList -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:48:25Z" name="afterMethod" finished-at="2022-05-18T10:48:26Z" duration-ms="179" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInManagePageList status=SUCCESS method=ExecuteMangePage.verifyTheMoreInfoIsClickableOrNotInManagePageList()[pri:0, instance:executeClass.ExecuteMangePage@482bce4f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:48:45Z" name="beforeMethod" finished-at="2022-05-18T10:48:47Z" duration-ms="2029" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonDisplayed()[pri:1, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:48:47Z" name="isNewButtonDisplayed" finished-at="2022-05-18T10:48:48Z" duration-ms="1252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNewButtonDisplayed -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:48:48Z" name="afterMethod" finished-at="2022-05-18T10:48:49Z" duration-ms="407" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isNewButtonDisplayed status=SUCCESS method=ExecuteMangePage.isNewButtonDisplayed()[pri:1, instance:executeClass.ExecuteMangePage@482bce4f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:06Z" name="beforeMethod" finished-at="2022-05-18T10:49:08Z" duration-ms="1967" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchFunctionalityWorkingFineOrNot()[pri:2, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:08Z" name="isSearchFunctionalityWorkingFineOrNot" finished-at="2022-05-18T10:49:10Z" duration-ms="1348" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchFunctionalityWorkingFineOrNot -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:10Z" name="afterMethod" finished-at="2022-05-18T10:49:10Z" duration-ms="185" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isSearchFunctionalityWorkingFineOrNot status=SUCCESS method=ExecuteMangePage.isSearchFunctionalityWorkingFineOrNot()[pri:2, instance:executeClass.ExecuteMangePage@482bce4f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:25Z" name="beforeMethod" finished-at="2022-05-18T10:49:27Z" duration-ms="1882" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="isafterUpdateAlertMessage()[pri:3, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:27Z" name="isafterUpdateAlertMessage" finished-at="2022-05-18T10:49:34Z" duration-ms="6766" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isafterUpdateAlertMessage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:34Z" name="afterMethod" finished-at="2022-05-18T10:49:34Z" duration-ms="141" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isafterUpdateAlertMessage status=SUCCESS method=ExecuteMangePage.isafterUpdateAlertMessage()[pri:3, instance:executeClass.ExecuteMangePage@482bce4f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:47Z" name="beforeMethod" finished-at="2022-05-18T10:49:49Z" duration-ms="1786" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMangePageToHomePage()[pri:4, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:49Z" name="verifyTheMangePageToHomePage" finished-at="2022-05-18T10:49:50Z" duration-ms="1241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheMangePageToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteMangePage@482bce4f]" started-at="2022-05-18T10:49:50Z" name="afterMethod" finished-at="2022-05-18T10:49:51Z" duration-ms="203" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTheMangePageToHomePage status=SUCCESS method=ExecuteMangePage.verifyTheMangePageToHomePage()[pri:4, instance:executeClass.ExecuteMangePage@482bce4f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- executeClass.ExecuteMangePage -->
       <class name="executeClass.ExecuteCategoryPage">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:48:28Z" name="beforeMethod" finished-at="2022-05-18T10:48:30Z" duration-ms="1872" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:01:26Z" name="beforeMethod" finished-at="2022-05-19T13:01:31Z" duration-ms="4919" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:48:30Z" name="verifyTheMoreInfoIsClickableOrNotInCategoryPageList" finished-at="2022-05-18T10:48:32Z" duration-ms="1213" status="PASS">
+        <test-method signature="verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:01:31Z" name="verifyTheMoreInfoIsClickableOrNotInCategoryPageList" finished-at="2022-05-19T13:01:32Z" duration-ms="1160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheMoreInfoIsClickableOrNotInCategoryPageList -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:48:32Z" name="afterMethod" finished-at="2022-05-18T10:48:32Z" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:01:32Z" name="afterMethod" finished-at="2022-05-19T13:01:32Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInCategoryPageList status=SUCCESS method=ExecuteCategoryPage.verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheMoreInfoIsClickableOrNotInCategoryPageList status=SUCCESS method=ExecuteCategoryPage.verifyTheMoreInfoIsClickableOrNotInCategoryPageList()[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:48:53Z" name="beforeMethod" finished-at="2022-05-18T10:48:55Z" duration-ms="2134" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:02:10Z" name="beforeMethod" finished-at="2022-05-19T13:02:16Z" duration-ms="5916" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:48:55Z" name="isNewButtonEnable" finished-at="2022-05-18T10:48:57Z" duration-ms="1164" status="PASS">
+        <test-method signature="isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:02:16Z" name="isNewButtonEnable" finished-at="2022-05-19T13:02:19Z" duration-ms="2990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNewButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:48:57Z" name="afterMethod" finished-at="2022-05-18T10:48:57Z" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:02:19Z" name="afterMethod" finished-at="2022-05-19T13:02:19Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteCategoryPage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@6a6afff2] output={null}]]]>
+                <![CDATA[[TestResult name=isNewButtonEnable status=SUCCESS method=ExecuteCategoryPage.isNewButtonEnable()[pri:1, instance:executeClass.ExecuteCategoryPage@2f8dad04] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:13Z" name="beforeMethod" finished-at="2022-05-18T10:49:15Z" duration-ms="1879" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:02:43Z" name="beforeMethod" finished-at="2022-05-19T13:02:48Z" duration-ms="5157" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:15Z" name="isSearchButtonEnable" finished-at="2022-05-18T10:49:16Z" duration-ms="1165" status="PASS">
+        <test-method signature="isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:02:48Z" name="isSearchButtonEnable" finished-at="2022-05-19T13:02:50Z" duration-ms="1979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSearchButtonEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:16Z" name="afterMethod" finished-at="2022-05-18T10:49:16Z" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:02:50Z" name="afterMethod" finished-at="2022-05-19T13:02:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteCategoryPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@6a6afff2] output={null}]]]>
+                <![CDATA[[TestResult name=isSearchButtonEnable status=SUCCESS method=ExecuteCategoryPage.isSearchButtonEnable()[pri:2, instance:executeClass.ExecuteCategoryPage@2f8dad04] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:37Z" name="beforeMethod" finished-at="2022-05-18T10:49:39Z" duration-ms="1676" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:10Z" name="beforeMethod" finished-at="2022-05-19T13:03:13Z" duration-ms="3441" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:39Z" name="isSearchFunctionalityWorkingFineOrNot" finished-at="2022-05-18T10:49:40Z" duration-ms="1031" status="PASS">
+        <test-method signature="isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:13Z" name="isSearchFunctionalityWorkingFineOrNot" finished-at="2022-05-19T13:03:15Z" duration-ms="1520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSearchFunctionalityWorkingFineOrNot -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:40Z" name="afterMethod" finished-at="2022-05-18T10:49:40Z" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:15Z" name="afterMethod" finished-at="2022-05-19T13:03:15Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isSearchFunctionalityWorkingFineOrNot status=SUCCESS method=ExecuteCategoryPage.isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@6a6afff2] output={null}]]]>
+                <![CDATA[[TestResult name=isSearchFunctionalityWorkingFineOrNot status=SUCCESS method=ExecuteCategoryPage.isSearchFunctionalityWorkingFineOrNot()[pri:3, instance:executeClass.ExecuteCategoryPage@2f8dad04] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:51Z" name="beforeMethod" finished-at="2022-05-18T10:49:52Z" duration-ms="1806" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:21Z" name="beforeMethod" finished-at="2022-05-19T13:03:26Z" duration-ms="4711" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:52Z" name="isSearchValueActiveEnable" finished-at="2022-05-18T10:49:53Z" duration-ms="1152" status="PASS">
+        <test-method signature="isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:26Z" name="isSearchValueActiveEnable" finished-at="2022-05-19T13:03:28Z" duration-ms="1555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSearchValueActiveEnable -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:53Z" name="afterMethod" finished-at="2022-05-18T10:49:54Z" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:28Z" name="afterMethod" finished-at="2022-05-19T13:03:28Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isSearchValueActiveEnable status=SUCCESS method=ExecuteCategoryPage.isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@6a6afff2] output={null}]]]>
+                <![CDATA[[TestResult name=isSearchValueActiveEnable status=SUCCESS method=ExecuteCategoryPage.isSearchValueActiveEnable()[pri:4, instance:executeClass.ExecuteCategoryPage@2f8dad04] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:57Z" name="beforeMethod" finished-at="2022-05-18T10:49:58Z" duration-ms="1717" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:28Z" name="beforeMethod" finished-at="2022-05-19T13:03:32Z" duration-ms="3997" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:49:58Z" name="verifyTheCategoryToHomePage" finished-at="2022-05-18T10:50:00Z" duration-ms="1347" status="PASS">
+        <test-method signature="verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:32Z" name="verifyTheCategoryToHomePage" finished-at="2022-05-19T13:03:33Z" duration-ms="1700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheCategoryToHomePage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@6a6afff2]" started-at="2022-05-18T10:50:00Z" name="afterMethod" finished-at="2022-05-18T10:50:00Z" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executeClass.ExecuteCategoryPage@2f8dad04]" started-at="2022-05-19T13:03:33Z" name="afterMethod" finished-at="2022-05-19T13:03:33Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheCategoryToHomePage status=SUCCESS method=ExecuteCategoryPage.verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@6a6afff2] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheCategoryToHomePage status=SUCCESS method=ExecuteCategoryPage.verifyTheCategoryToHomePage()[pri:5, instance:executeClass.ExecuteCategoryPage@2f8dad04] output={null}]]]>
               </value>
             </param>
           </params>
@@ -2062,6 +1196,6 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- executeClass.ExecuteCategoryPage -->
-    </test> <!-- Chrome Browser Test -->
+    </test> <!-- Edge Browser Test -->
   </suite> <!-- Cross Browser Test Suite -->
 </testng-results>

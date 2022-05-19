@@ -22,11 +22,11 @@ public class ExecuteManageOfferCodePage extends BaseClass {
 		dp =new DashboardPage(driver);
 		moc = new ManageOfferCodePage(driver);
 		moc.moreInfoManageOfferCode();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin/list-product";
+		String expectedURL="http://groceryapp.uniqassosiates.com/admin/list-offercode";
 		String actualURL=driver.getCurrentUrl();
 		Assert.assertEquals(actualURL, expectedURL);
   }
-  @Test(priority=1)
+  @Test(priority = 1)
   public void isNewButtonEnable() {
 	  lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -40,7 +40,7 @@ public class ExecuteManageOfferCodePage extends BaseClass {
 		Assert.assertTrue(actual);
 	  
   }
-  @Test(priority=2)
+  @Test(priority = 2)
   public void isSearchButtonEnable() {
 	  lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -54,7 +54,7 @@ public class ExecuteManageOfferCodePage extends BaseClass {
 		Assert.assertTrue(actual);
 	  
   }
-  @Test(priority=3)
+  @Test(priority = 3)
   public void VerifyTheManageProductToHomePage() {
 	  lp= new LoginPage(driver);
 		lp.enterUsername("admin");
