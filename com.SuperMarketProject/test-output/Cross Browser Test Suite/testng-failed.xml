@@ -4,6 +4,13 @@
   <test thread-count="5" parallel="tests" name="Chrome Browser Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="executeClass.ExecuteLoginPage">
+        <methods>
+          <include name="verifyUnsuccessfulLogin" invocation-numbers="0 1 2"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.ExecuteLoginPage -->
       <class name="executeClass.ExecuteManageProductPage">
         <methods>
           <include name="verifyTheSearchProduct"/>
@@ -16,6 +23,13 @@
   <test thread-count="5" parallel="tests" name="Edge Browser Test(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
+      <class name="executeClass.ExecuteLoginPage">
+        <methods>
+          <include name="verifyUnsuccessfulLogin" invocation-numbers="0 1 2"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.ExecuteLoginPage -->
       <class name="executeClass.ExecuteManageProductPage">
         <methods>
           <include name="verifyTheSearchProduct"/>

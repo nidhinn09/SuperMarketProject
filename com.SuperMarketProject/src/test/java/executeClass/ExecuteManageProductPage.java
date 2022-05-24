@@ -13,7 +13,7 @@ public class ExecuteManageProductPage extends BaseClass {
 	DashboardPage dp;
 	ManageProductPage mpd;
 
-	@Test(enabled = false)
+	@Test(priority=0)
 	public void verifyTheMoreInfoIsClickableOrNotInManageProductList() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -23,12 +23,12 @@ public class ExecuteManageProductPage extends BaseClass {
 		dp =new DashboardPage(driver);
 		mpd = new ManageProductPage(driver);
 		mpd.moreInfoManageProduct();
-		String expectedURL ="http://groceryapp.uniqassosiates.com/admin/list-product";
-		String actualURL = driver.getCurrentUrl();
+		String expectedURL ="List Products";
+		String actualURL = mpd.getValueListProduct();
 		Assert.assertEquals(actualURL, expectedURL);
 	}
 
-	@Test(enabled = false)
+	@Test(priority=1)
 	public void isNewButtonEnable() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -41,7 +41,7 @@ public class ExecuteManageProductPage extends BaseClass {
 		Boolean actual=mpd.isNewButtoninManageProductEnable();
 		Assert.assertTrue(actual);
 	}
-	@Test(enabled = false)
+	@Test(priority=2)
 	public void isSearchButtonEnable() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -54,7 +54,7 @@ public class ExecuteManageProductPage extends BaseClass {
 		Boolean actual=mpd.isSearchButtonInManageProductEnable();
 		Assert.assertTrue(actual);
 	}
-	@Test(priority=0)
+	@Test(priority=3)
 	public void verifyTheSearchProduct() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -75,7 +75,7 @@ public class ExecuteManageProductPage extends BaseClass {
 
 
 	}
-	@Test(enabled = false)
+	@Test(priority=4)
 	public void isEditButtonInProduct(){
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -90,7 +90,7 @@ public class ExecuteManageProductPage extends BaseClass {
 		
 		
 	}
-	@Test(enabled = false)
+	@Test(priority=5)
 	public void VerifyTheManageProductToHomePage() {
 		lp= new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -101,9 +101,9 @@ public class ExecuteManageProductPage extends BaseClass {
 		mpd = new ManageProductPage(driver);
 		mpd.moreInfoManageProduct();
 		mpd.homeLink();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin/home";
-		String actualURL=driver.getCurrentUrl();
-		Assert.assertEquals(actualURL, expectedURL);
+		String expected="Dashboard";
+		String actual=mpd.getValueHomePage();
+		Assert.assertEquals(actual, expected);
 		
 	}
 

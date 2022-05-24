@@ -20,6 +20,8 @@ public class ManagePage {
 	
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/list-page'])[2]")
 	WebElement moreinfo;
+	@FindBy(xpath = "(//*[text()='List Pages'])[1]")
+	WebElement listpage;
 	@FindBy(xpath = "//a[@href='http://groceryapp.uniqassosiates.com/admin/pages/add']")
 	WebElement newButton;
 	@FindBy(xpath = "//*[text()=' Search']")
@@ -38,6 +40,8 @@ public class ManagePage {
 	WebElement alertMessage;
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/home'])[1]")
 	WebElement homePage;
+	@FindBy(xpath="(//*[text()=' Admin'])[1]")
+	WebElement Dashboard;
 	@FindBy(xpath = "//*[@id='title']")
 	WebElement NewValue;
 	@FindBy(xpath = "//*[@id='page']")
@@ -55,6 +59,9 @@ public class ManagePage {
 	public void manageMoreinfo() {
 		gl.clickElement(moreinfo);
 	}
+	public String listPageDisplay() {
+		return gl.getValues(listpage);
+				}
 	public boolean newButton() {
 		return gl.elementDisplayed(newButton);
 	}
@@ -104,6 +111,9 @@ public class ManagePage {
 	}
 	public void homePage() {
 		gl.clickElement(homePage);
+	}
+	public String homePageDisplay() {
+		return gl.getValues(Dashboard);
 	}
 	
 

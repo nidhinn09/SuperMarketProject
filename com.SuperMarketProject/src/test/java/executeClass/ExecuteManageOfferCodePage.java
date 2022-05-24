@@ -22,8 +22,8 @@ public class ExecuteManageOfferCodePage extends BaseClass {
 		dp =new DashboardPage(driver);
 		moc = new ManageOfferCodePage(driver);
 		moc.moreInfoManageOfferCode();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin/list-offercode";
-		String actualURL=driver.getCurrentUrl();
+		String expectedURL="List Offercodes";
+		String actualURL=moc.getValue();
 		Assert.assertEquals(actualURL, expectedURL);
   }
   @Test(priority = 1)
@@ -65,9 +65,9 @@ public class ExecuteManageOfferCodePage extends BaseClass {
 		moc = new ManageOfferCodePage(driver);
 		moc.moreInfoManageOfferCode();
 		moc.homeLink();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin/home";
-		String actualURL=driver.getCurrentUrl();
-		Assert.assertEquals(actualURL, expectedURL);
+		String expected="Dashboard";
+		String actual=moc.getValue1();
+		Assert.assertEquals(actual, expected);
 	  
   }
 }

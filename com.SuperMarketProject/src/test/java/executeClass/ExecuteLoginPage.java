@@ -31,33 +31,23 @@ public class ExecuteLoginPage extends BaseClass {
 		lp.enterPassword(lp.readPassword(1, 1));
 		lp.clickSignInButton();
 		lp.implicitWait();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin";
-		String actualURL = driver.getCurrentUrl();
-		Assert.assertEquals(actualURL, expectedURL);
+		String expectedResult="Admin";
+		String actualResult = lp.userPage();
+		Assert.assertEquals(actualResult, expectedResult);
 
 	}
-	@Test(priority=2)
-	public void verifyTheInvalidUserNameAndInvalidPassword() throws IOException {
+	@Test(priority=2,dataProvider = "data-provider",dataProviderClass = DataProviderClass.class)
+	public void verifyUnsuccessfulLogin(String uName,String password){
 		lp= new LoginPage(driver);
-		lp.enterUsername("user");
-		lp.enterPassword("tech");
+		lp.enterUsername(uName);
+		lp.enterPassword(password);
 		lp.clickSignInButton();
 		lp.implicitWait();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin";
-		String actualURL = driver.getCurrentUrl();
-		Assert.assertNotEquals(actualURL, expectedURL, "invalid username and password");
+		String expectedResult="Admin";
+		String actualResult = lp.userPage();
+		Assert.assertEquals(actualResult, expectedResult);
 	}
-	@Test(priority=3)
-	public void verifyTheValidUserNameAndInvalidPassword() {
-		lp= new LoginPage(driver);
-		lp.enterUsername("admin");
-		lp.enterPassword("capital");
-		lp.clickSignInButton();
-		lp.implicitWait();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin";
-		String actualURL = driver.getCurrentUrl();
-		Assert.assertNotEquals(actualURL, expectedURL, "invalid username and password");
-	}
+
 
 
 

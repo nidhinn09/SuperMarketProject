@@ -54,7 +54,7 @@ public class BaseClass {
 			sh= new ScreenShotClass();
 			sh.takeScreenshot(driver, itestResult.getName());
 		}
-		//driver.quit();
+		driver.quit();
 	}
 
 

@@ -21,9 +21,9 @@ public class ExecuteCategoryPage extends BaseClass {
 		lp.implicitWait();
 		cp = new CategoryPage(driver);
 		cp.moreInfoOfCategoryPage();
-		String expectedURL ="http://groceryapp.uniqassosiates.com/admin/list-category";
-		String actualURL = driver.getCurrentUrl();
-		Assert.assertEquals(actualURL, expectedURL);
+		String expected ="List Categories";
+		String actual = cp.getCategoryListValue();
+		Assert.assertEquals(actual, expected);
   }
   @Test(priority = 1)
   public void isNewButtonEnable() {
@@ -89,9 +89,9 @@ public class ExecuteCategoryPage extends BaseClass {
 		cp = new CategoryPage(driver);
 		cp.moreInfoOfCategoryPage();
 		cp.homePage();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin/home";
-		String actualURL=driver.getCurrentUrl();
-		Assert.assertEquals(expectedURL, actualURL);
+		String expected="Dashboard";
+		String actual=cp.home();
+		Assert.assertEquals(expected, actual);
 	  
   }
 }

@@ -15,6 +15,8 @@ public class CategoryPage {
 	
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/list-category'])[2]")
 	WebElement moreInfoInCategoryPage;
+	@FindBy(xpath = "(//*[text()='List Categories'])[1]")
+	WebElement listCategory;
 	@FindBy(xpath = "//a[@href='http://groceryapp.uniqassosiates.com/admin/Category/add']")
 	WebElement newButtonInCategoryPage;
 	@FindBy(xpath = "//a[@class='btn btn-rounded btn-primary']")
@@ -27,6 +29,8 @@ public class CategoryPage {
 	WebElement activButton;
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/home'])[1]")
 	WebElement homePage;
+	@FindBy(xpath = "(//*[text()='Dashboard'])[1]")
+	WebElement dashboard;
 	
 	public CategoryPage(WebDriver driver) {
 		this.driver= driver;
@@ -36,6 +40,10 @@ public class CategoryPage {
 	public void moreInfoOfCategoryPage() {
 		gl.clickElement(moreInfoInCategoryPage);
 	}
+	public String getCategoryListValue() {
+		return gl.getValues(listCategory);
+	}
+	
 	public Boolean newButtonEnable() {
 		return gl.isEnabled(newButtonInCategoryPage);
 	}
@@ -60,6 +68,9 @@ public class CategoryPage {
 	}
 	public void homePage() {
 		gl.clickElement(homePage);
+	}
+	public String home() {
+	return gl.getValues(dashboard);
 	}
 
 	

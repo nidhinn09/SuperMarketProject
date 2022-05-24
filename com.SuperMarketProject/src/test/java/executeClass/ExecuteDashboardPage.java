@@ -19,9 +19,9 @@ public class ExecuteDashboardPage extends BaseClass {
 		lp.clickSignInButton();
 		lp.implicitWait();
 		dp = new DashboardPage(driver);
-		String actual= "Manage Pages";
-		String expected=dp.text.getText();
-		Assert.assertEquals(actual, expected);  
+		String actualResult= "Manage Pages";
+		String expectedResult=dp.userDashBoard();
+		Assert.assertEquals(actualResult, expectedResult);  
 	  
   }
   @Test(priority = 1)
@@ -35,9 +35,9 @@ public class ExecuteDashboardPage extends BaseClass {
 		dp.adminLinkclick();
 		dp.explicitWait();
 		dp.logOutClick();
-	    String expectedURL ="http://groceryapp.uniqassosiates.com/admin/login";
-		String actualURL = driver.getCurrentUrl(); 
-		Assert.assertEquals(actualURL,expectedURL);
+	    String expectedResult ="7rmart supermarket";
+		String actualResult = dp.loginPage(); 
+		Assert.assertEquals(actualResult,expectedResult);
 		 
 	  
   }

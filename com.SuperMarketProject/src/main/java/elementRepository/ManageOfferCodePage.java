@@ -23,8 +23,10 @@ public class ManageOfferCodePage {
 	WebElement editListOffer;
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/home'])[4]")
 	WebElement home;
-	@FindBy(xpath = "//*[@class='breadcrumb-item active']")
+	@FindBy(xpath = "(//*[text()='List Offercodes'])[1]")
 	WebElement ManageOfferCodePage;
+	@FindBy(xpath = "(//*[text()='Dashboard'])[2]")
+	WebElement homePage;
 	public ManageOfferCodePage(WebDriver driver) {
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
@@ -43,6 +45,9 @@ public class ManageOfferCodePage {
 	}
 	public String getValue() {
 		return gl.getValues(ManageOfferCodePage);
+	}
+	public String getValue1() {
+		return gl.getValues(homePage);
 	}
 
 }

@@ -16,6 +16,8 @@ public class ManageProductPage {
 	
 	@FindBy(xpath = "(//a[@href='http://groceryapp.uniqassosiates.com/admin/list-product'])[2]")
 	WebElement moreInfoInManageProduct;
+	@FindBy(xpath = "(//*[text()='List Products'])[1]")
+	WebElement listProduct;
 	@FindBy(xpath = "//*[@href='http://groceryapp.uniqassosiates.com/admin/Product/add']")
 	WebElement newButton;
 	@FindBy(xpath = "(//*[@class=' fa fa-search'])[1]")
@@ -34,6 +36,8 @@ public class ManageProductPage {
 	WebElement editButtonInProduct;
 	@FindBy(xpath = "(//*[@href='http://groceryapp.uniqassosiates.com/admin/home'])[4]")
 	WebElement homeLink;
+	@FindBy(xpath = "(//*[text()='Dashboard'])[2]")
+	WebElement homePage;
 	
 	public ManageProductPage(WebDriver driver) {
 		this.driver= driver;
@@ -68,6 +72,12 @@ public class ManageProductPage {
 	}
 	public String getValue() {
 		return gl.getValues(productName);
+	}
+	public String getValueListProduct() {
+		return gl.getValues(listProduct);
+	}
+	public String getValueHomePage() {
+		return gl.getValues(homePage);
 	}
 	public Boolean editProduct() {
 		return gl.isEnabled(editButtonInProduct);

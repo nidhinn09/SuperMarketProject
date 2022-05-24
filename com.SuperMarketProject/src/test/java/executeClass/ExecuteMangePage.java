@@ -14,7 +14,7 @@ import org.testng.Assert;
 public class ExecuteMangePage extends BaseClass {
 	LoginPage lp;
 	ManagePage mp;
-	@Test(enabled = false)
+	@Test(priority=0)
 	public void verifyTheMoreInfoIsClickableOrNotInManagePageList() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -23,11 +23,11 @@ public class ExecuteMangePage extends BaseClass {
 		lp.implicitWait();
 		mp = new ManagePage(driver);
 		mp.manageMoreinfo();
-		String expectedURL= "http://groceryapp.uniqassosiates.com/admin/list-page";
-		String actualURL= driver.getCurrentUrl();
+		String expectedURL= "List Pages";
+		String actualURL= mp.listPageDisplay();
 		Assert.assertEquals(actualURL, expectedURL);
 	}
-	@Test(enabled = false)
+	@Test(priority=1)
 	public void isNewButtonDisplayed() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -40,7 +40,7 @@ public class ExecuteMangePage extends BaseClass {
 		Assert.assertTrue(actual);
 
 	}
-	@Test(enabled = false)
+	@Test(priority=2)
 	public void isSearchFunctionalityWorkingFineOrNot() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -55,7 +55,7 @@ public class ExecuteMangePage extends BaseClass {
 		String expectedResult = mp.searchName.getText();
 		Assert.assertEquals(expectedResult, actualResult);
 	}
-	@Test(enabled = false)
+	@Test(priority=3)
 	public void isafterUpdateAlertMessage() throws InterruptedException{
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -72,7 +72,7 @@ public class ExecuteMangePage extends BaseClass {
 		Boolean actual = mp.alertMessage();
 		Assert.assertTrue(actual);
 	}
-	@Test(enabled = false)
+	@Test(priority=4)
 	public void verifyTheMangePageToHomePage() {
 		lp = new LoginPage(driver);
 		lp.enterUsername("admin");
@@ -82,9 +82,9 @@ public class ExecuteMangePage extends BaseClass {
 		mp = new ManagePage(driver);
 		mp.manageMoreinfo();
 		mp.homePage();
-		String expectedURL="http://groceryapp.uniqassosiates.com/admin/home";
-		String actualURL=driver.getCurrentUrl();
-		Assert.assertEquals(expectedURL, actualURL);
+		String expectedResult="Admin";
+		String actualResult=mp.homePageDisplay();
+		Assert.assertEquals(actualResult, expectedResult);
 	}
 	
 
